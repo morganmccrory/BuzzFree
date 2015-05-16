@@ -43,12 +43,12 @@ ActiveRecord::Schema.define(version: 20150516060604) do
     t.string   "first_name"
     t.string   "last_name"
     t.string   "email"
-    t.string   "password_hash"
+    t.string   "password"
     t.integer  "points"
     t.boolean  "flag"
     t.string   "photo_url"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
