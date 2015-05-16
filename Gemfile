@@ -38,5 +38,17 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  # Use Hirb to visualize Active Record tables in console
+  gem 'hirb'
+
+  # Shoulda-matchers to extend Rspec
+  gem 'shoulda-matchers'
+
+  # User bettererros to display more speciic errors in browser
+  gem 'better_errors'
+
+  # Rspec for testing models and controllers
+  gem 'rspec-rails'
 end
 
