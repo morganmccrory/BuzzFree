@@ -29,6 +29,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Use Bootstrap for CSS frameowrk
+gem 'bootstrap-sass', '~> 3.3.4'
+
+# Used with bootstrap
+gem 'sass-rails', '>= 3.2'
+
+# Bootstrap Forms for nested forms
+gem 'bootstrap_form'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
